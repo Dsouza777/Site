@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiências</title>
+</head>
+<body>
+    <header>
+    <h1></h1>
+    </header>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda odio blanditiis velit nostrum beatae, amet quis quidem accusamus fugit, atque consequuntur vero autem temporibus aliquid, ad fugiat totam magnam eius.</p>
+    <main></main>
+    <footer>
+        <p>Desenvolvido por <a href="https://twitter.com/D_souza707" target="_blank" id="tira_daqui">@D_souza707</a></p>
+    </footer>
+</body>
+</html>
+
+
+
+
