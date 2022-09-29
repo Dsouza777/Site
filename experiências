@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +7,12 @@
     <title>Danilo Souza</title>
     <link rel="stylesheet" href="style_anual.css">
     <link rel="shortcut icon" href="imagens/ds_letras.ico" type="image/x-icon">
-    
-
 </head>
 <body>
     <header class="cabeca"><!--Apresentação do site-->
         <nav>
             <a href="index.html">Home</a>
-            <a href="">Experiências</a>
+            <a href="Experiencias.html">Experiências</a>
             <a href="">Certificações</a>
             <a href="">Agradecimentos</a>
         </nav>
@@ -46,6 +44,29 @@
                 <h3>Por quê este site ?</h3>
                     <p>Criei esse site para por em pratica desenvolvimento web já que  gostaria de ingressar na area de Técnologia da informação, tanto na area Front end quanto Back End, mais expecíficamente voltado para a area de segurança da informação.</p>
                     <p>De certa forma esta é a melhor forma de mostrar minhas habilidades de desenvolvimento web.</p> <!--quanto em segurança, porque este site está hospedado em um computador antigo em minha casa, e toda a segurança de rede quem gerencia sou eu.</p>-->
+            
+                <h3>Agradecimentos Especiais</h3>
+            
+                <div><!--Agradecimentos_conteudo-->
+                    <ul>
+                        <div id="agradecimentosEdinho">
+                            <li>Edson José de Souza</li>
+                            <p>Meu pai, sempre me estimulando a estudar melhorar para que eu possa alcançar meus objetivos</p>
+                            </div>
+                        <div id="agradecimentosFelipe">
+                            <li >Felipe Souza Azevedo</li>
+                                <p>Programador Junior com anos trabalhando na área, sempre me incentivou a entrar no ramo</p>
+                            </div>
+                        <div id="agradecimentosSamuel">
+                                <li>Samuel Belo da Luz</li>
+                                <p>Técnico em informática e técnico em eletrônica Estudante do primeiro ano na UFACB (Universidade Federal do ABC)</p>
+                            </div>
+                        <div  id="agradecimentosJamara">
+                                <li>Jamara Silva</li>
+                                <p>Redatora e Consultora de arte</p>
+                            </div>
+                    </ul>
+                    <p>Aprender algo novo e começar praticamente do nada não é fácil para ninguém, mas o importante é começar. Obrigado por estarem comigo nessa nova jornada.</p>
                 </div>
             </main>
         </div>
