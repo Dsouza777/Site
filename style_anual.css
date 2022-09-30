@@ -16,11 +16,6 @@
 
 }
 
-/*{
-    margin:  0px;
-    padding: 0px;
-}*/
-
 body {
     background-image: linear-gradient(to top, #9BF2EA,#41BFB3, #2A8C82);
     background-attachment: fixed;
@@ -68,7 +63,7 @@ nav a:hover {
 
 }
 
-.linha{
+.linha{ /* tentativa de fazer a colula da esquerda ficar ao lado do conteúdo, mas acho que está errado*/
     display: flex;
     flex-flow: row wrap;
     }
