@@ -16,11 +16,16 @@
 
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-image: linear-gradient(to top, #9BF2EA,#41BFB3, #2A8C82);
     background-attachment: fixed;
     font-size: 16px;
-    width: 1000px;
+    width: 900px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -107,7 +112,6 @@ nav a:hover {
 }
 
 main {
-    content: justify;
     color: var(--cor5);
 
 }
