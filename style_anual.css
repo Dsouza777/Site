@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root{
-    --cor1: #2A8C82;
-    --cor2: #41BFB3;
-    --cor3: #9BF2EA;
-    --cor4: #275950;
-    --cor5: #260101;
+    --cor1:#2A8C82;
+    --cor2:#41BFB3;
+    --cor3:#9BF2EA;
+    --cor4:#275950;
+    --cor5:#260101;
     
     --cornoturna1: #492A8C;
     --cornoturna2: #6439BF;
@@ -22,7 +22,7 @@
 }
 
 body {
-    background-image: linear-gradient(to top, #9BF2EA,#41BFB3, #2A8C82);
+    background-image: linear-gradient(to top, #9bf2ea,#41BFB3, #2a8c82);
     background-attachment: fixed;
     font-size: 16px;
     width: 900px;
