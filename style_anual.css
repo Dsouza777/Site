@@ -111,7 +111,7 @@ main p {
     text-indent: 30px;
 }
 
-@media (max-width: 400px){    
+@media (max-width: 600px){    
 
     body {
         background-image: linear-gradient(to top,var(--cor3),var(--cor2),var(--cor1));
