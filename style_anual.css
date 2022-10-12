@@ -25,7 +25,9 @@ body {
     background-image: linear-gradient(to top,var(--cor3),var(--cor2),var(--cor1));
     background-attachment: fixed;
     font-size: 16px;
-    width: 900px;
+    /*width: 900px;*/
+    min-width: 320px;
+    max-width: 900px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -96,20 +98,6 @@ nav a:hover {
     margin: auto;
 }
 
-.referencias_estudos { /*Referencias de estudos*/
-    background-color: var(--cor3);
-    border-radius: 15px;
-    box-shadow: 5px 5px 15px var(--cor4) ; 
-         /*
-            0 primeiro parametro, quanto a sombra anda para baixo
-            0 segundo parametro, quanto a sombra anda para o lado numero positivo para direita, numero negativo para esquerda
-            0 terceiro parametro, intensidade da sombra, o quanto ela esmaece 
-            0 quarto parametro e ultimo, geralmente dado em hexadecimal define  a cor da borda 
-            */
-    padding: 10px;
-    margin: auto;
-
-}
 
 main {
     color: var(--cor5);
@@ -182,15 +170,3 @@ footer > p {
     text-decoration: underline;    
 } 
 
-/*Color Theme Swatches in Hex  paleta de cores escolhida 
-.The-Black-and-Red-1-hex { color: #2A8C82; }
-.The-Black-and-Red-2-hex { color: #41BFB3; }
-.The-Black-and-Red-3-hex { color: #9BF2EA; }
-.The-Black-and-Red-4-hex { color: #275950; }
-.The-Black-and-Red-5-hex { color: #260101; }
-/*Color Theme Swatches in HSLA 
-.The-Black-and-Red-1-hsla { color: hsla(174, 53, 35, 1); }
-.The-Black-and-Red-2-hsla { color: hsla(174, 49, 50, 1); }
-.The-Black-and-Red-3-hsla { color: hsla(174, 77, 77, 1); }
-.The-Black-and-Red-4-hsla { color: hsla(168, 38, 25, 1); }
-.The-Black-and-Red-5-hsla { color: hsla(0, 96, 7, 1); }*/

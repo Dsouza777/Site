@@ -1,0 +1,16 @@
+
+CSS
+
+
+/*Color Theme Swatches in Hex  paleta de cores escolhida 
+.The-Black-and-Red-1-hex { color: #2A8C82; }
+.The-Black-and-Red-2-hex { color: #41BFB3; }
+.The-Black-and-Red-3-hex { color: #9BF2EA; }
+.The-Black-and-Red-4-hex { color: #275950; }
+.The-Black-and-Red-5-hex { color: #260101; }
+/*Color Theme Swatches in HSLA 
+.The-Black-and-Red-1-hsla { color: hsla(174, 53, 35, 1); }
+.The-Black-and-Red-2-hsla { color: hsla(174, 49, 50, 1); }
+.The-Black-and-Red-3-hsla { color: hsla(174, 77, 77, 1); }
+.The-Black-and-Red-4-hsla { color: hsla(168, 38, 25, 1); }
+.The-Black-and-Red-5-hsla { color: hsla(0, 96, 7, 1); }*/
