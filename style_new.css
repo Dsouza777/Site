@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*------------------------COLOR_SET VARIAVEIS----------------------*/
 :root{
     --cor1:#2A8C82;
     --cor2:#41BFB3;
@@ -16,18 +16,39 @@
      /*height = ALTURA*/
 
 }
-
+/*---------------------------CFG GLOBAL----------------------------*/
 *{
     margin: 0px;
     padding: 0px;
 }
+/*-------------------------MEDIA QUERIES---------------------------*/
+@media (min-width: 750px){
 
-/*-------------------------CGF GERAL DO CORPO-------------------------*/
+        .linha{ 
+                /* tentativa de fazer a colula da esquerda ficar ao lado do conteúdo, mas acho que está errado*/
+                display: flex;
+                flex-direction: flex wrap;
+        }
+
+        .coluna{
+                width: 50%;
+                margin: 0px 67px auto auto;
+        }
+
+        .coluna1{
+                margin-left: 600px;
+        }
+        .coluna_esquerda{
+                margin-top: 50px;
+        }
+
+}
+
+/*------------------------CGF GERAL DO CORPO-----------------------*/
 body {
         background-image: linear-gradient(to top,var(--cor3),var(--cor2),var(--cor1));
         background-attachment: fixed;
         font-size: 16px;
-        /*width: 900px;*/
         min-width: 320px;
         max-width: 900px;
         color: var(--cor5);
@@ -36,14 +57,14 @@ body {
         
 }
 
-/*-----------------------CABECALHO----------------------------------*/
+/*----------------------------CABECALHO----------------------------*/
 .cabeca {
         color: var(--cor5);    
         font-family: 'Times New Roman', Times, serif;
         margin: 20px 10px 20px;
 
 }
-/*--------------------------MENUS-----------------------------------*/
+/*------------------------------MENUS------------------------------*/
 nav { 
         background-color: var(--cor1);
         border-radius: 12px;
@@ -67,7 +88,7 @@ nav a:hover {
     
 }
 
-/*------------------------FOTO/CONTATOS----------------------------*/
+/*-------------------------FOTO/CONTATOS---------------------------*/
 .coluna_esquerda{
         padding: 35px 7%;
         margin: auto;
@@ -96,29 +117,14 @@ article {
         text-indent: 30px;
         padding: 15px;
 }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*-----------------------AGRADECIMENTOS---------------------------*/
+#agradecimentos > p {
+        display: none;   
+}
+    
+#agradecimentos:hover > p {
+        display: block; 
+}
 
 /*---------------------------FOOTER-------------------------------*/
 footer {
@@ -141,33 +147,8 @@ footer > p {
         color:var(--cor2); 
         text-decoration: none;
 }
-    
-    
-    
+
 #tira_daqui:hover {
         color: var(--cor5);
         text-decoration: underline;    
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Cores baseadas da twitch
-nova paleta de cores baseado no canal da twitch
-
-{color: #7B44F2
-        #6439BF
-        #492A8C
-        #211340
-        #0D0D0D}*/
