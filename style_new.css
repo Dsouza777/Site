@@ -22,7 +22,10 @@
     padding: 0px;
 }
 /*-------------------------MEDIA QUERIES---------------------------*/
-@media (min-width: 750px){
+@media (min-width: 650px){
+        body{
+                min-height: 100vh;
+        }
 
         .linha{ 
                 /* tentativa de fazer a colula da esquerda ficar ao lado do conteúdo, mas acho que está errado*/
@@ -41,7 +44,11 @@
         .coluna_esquerda{
                 margin-top: 50px;
         }
-
+        footer{
+                position: sticky;
+                bottom: 0;
+                width: 900px;
+        }
 }
 
 /*------------------------CGF GERAL DO CORPO-----------------------*/
@@ -127,6 +134,7 @@ article {
 }
 
 /*---------------------------FOOTER-------------------------------*/
+
 footer {
         background-color: var(--cor4);
         color: var(--cor2);
@@ -137,8 +145,9 @@ footer {
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         text-decoration: none;
+        bottom: 0px;
 }
-    
+
 footer > p {
         margin: 0px;
 }
