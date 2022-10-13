@@ -1,8 +1,173 @@
-Cores baseadas da twitch
+@charset "UTF-8";
+
+:root{
+    --cor1:#2A8C82;
+    --cor2:#41BFB3;
+    --cor3:#9BF2EA;
+    --cor4:#275950;
+    --cor5:#260101;
+    
+    --cornoturna1: #492A8C;
+    --cornoturna2: #6439BF;
+    --cornoturna3: #7B44F2;
+    --cornoturna4: #211340;
+    --cornoturna5: #0D0D0D;
+     /*width = LARGURA*/
+     /*height = ALTURA*/
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*-------------------------CGF GERAL DO CORPO-------------------------*/
+body {
+        background-image: linear-gradient(to top,var(--cor3),var(--cor2),var(--cor1));
+        background-attachment: fixed;
+        font-size: 16px;
+        /*width: 900px;*/
+        min-width: 320px;
+        max-width: 900px;
+        color: var(--cor5);
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        
+}
+
+/*-----------------------CABECALHO----------------------------------*/
+.cabeca {
+        color: var(--cor5);    
+        font-family: 'Times New Roman', Times, serif;
+        margin: 20px 10px 20px;
+
+}
+/*--------------------------MENUS-----------------------------------*/
+nav { 
+        background-color: var(--cor1);
+        border-radius: 12px;
+        font-size: 20px;
+        margin: 5px;
+        text-align: center;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a {
+        text-decoration: none;
+        font-weight: bold;
+        margin: 30px;
+        color:var(--cor5);
+}
+    
+nav a:hover {
+        text-size-adjust: 25px;
+        color:var(--cor3);
+    
+}
+
+/*------------------------FOTO/CONTATOS----------------------------*/
+.coluna_esquerda{
+        padding: 35px 7%;
+        margin: auto;
+        background-color: var(--cor3);
+        border-radius: 35px;
+        box-shadow: 5px 5px 15px var(--cor4);
+        height: 470px;
+        width: 280px;
+        
+}
+    
+.foto_de_perfil {
+        border-radius: 250px;
+        box-shadow: 5px 5px 30px var(--cor4);
+        margin-left: -10px;   
+}
+
+.coluna1 {
+        width: auto;
+        margin-top: 25px;
+        margin-left: 12px;
+}
+
+article {
+        text-align: justify;
+        text-indent: 30px;
+        padding: 15px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------FOOTER-------------------------------*/
+footer {
+        background-color: var(--cor4);
+        color: var(--cor2);
+        font-style: italic;
+        text-align: center;
+        padding: 5px;
+        margin-top: 30px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        text-decoration: none;
+}
+    
+footer > p {
+        margin: 0px;
+}
+    
+#tira_daqui{
+        color:var(--cor2); 
+        text-decoration: none;
+}
+    
+    
+    
+#tira_daqui:hover {
+        color: var(--cor5);
+        text-decoration: underline;    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Cores baseadas da twitch
 nova paleta de cores baseado no canal da twitch
 
 {color: #7B44F2
         #6439BF
         #492A8C
         #211340
-        #0D0D0D}
+        #0D0D0D}*/

@@ -41,7 +41,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'Times New Roman', Times, serif;
     color: var(--cor5);
 }
 
@@ -102,8 +101,7 @@ nav a:hover {
 
 
 main {
-    color: var(--cor5);
-
+    text-indent: 10px;
 }
 
 main p {
@@ -146,13 +144,6 @@ main p {
     .foto_de_perfil {
         margin-left: -10px;  
     }
-
-   .coluna1 {
-        width: 310px;
-        margin-top: 25px;
-        margin-left: 95px;
-
-   }
     
 } /* FIM DA MEDIA QUERIES*/
 
